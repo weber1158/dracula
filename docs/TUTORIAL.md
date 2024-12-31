@@ -83,6 +83,7 @@ draculize(AxesOnly=true)
 ```
 
 <img src="../images/figure_03.png" alt="Figure 3" width="600"/>
+
 ## **Color Order**
 
 If you don't want to convert the entire figure into the Dracula theme, but want to use Dracula colors for your data, then call the function **`dracula_colororder`** after creating your plot.
