@@ -42,7 +42,7 @@ nexttile
  draculize
 ```
 
-<img src="images/figure_01.png" alt="Figure 1" width="600"/>
+<img src="../images/figure_01.png" alt="Figure 1" width="600"/>
 
 The **`draculize`** function also works on any basic plots that contain a title, subtitle, axes labels, a legend, added text, and grid lines. It also works for 3D plots.
 
@@ -60,7 +60,7 @@ contour3(peaks,50)
 draculize
 ```
 
-<img src="images/figure_02.png" alt="Figure 2" width="600"/>
+<img src="../images/figure_02.png" alt="Figure 2" width="600"/>
 
 Note that if you add a label, legend, etc. *after* executing the **`draculize`** function, the new object(s) will not be automatically incorporated into the Dracula theme. You will need to call the **`draculize`** function again in order to update the figure.
 
@@ -82,7 +82,7 @@ contour3(peaks,50)
 draculize(AxesOnly=true)
 ```
 
-<img src="images/figure_03.png" alt="Figure 3" width="600"/>
+<img src="../images/images/figure_03.png" alt="Figure 3" width="600"/>
 ## **Color Order**
 
 If you don't want to convert the entire figure into the Dracula theme, but want to use Dracula colors for your data, then call the function **`dracula_colororder`** after creating your plot.
@@ -103,7 +103,7 @@ nexttile
  dracula_colororder
 ```
 
-<img src="images/figure_04.png" alt="Figure 4" width="600"/>
+<img src="../images/figure_04.png" alt="Figure 4" width="600"/>
 
 Use optional name\-value pairs to change the sequence of the color order and/or to limit the number of colors. For example:
 
@@ -122,7 +122,7 @@ colorbar
 dracula_colormap
 ```
 
-<img src="images/figure_05.png" alt="Figure 5" width="600"/>
+<img src="../images/figure_05.png" alt="Figure 5" width="600"/>
 
 You can flip the order of the Dracula color map by specifying the **`Order='reverse'`** name\-value pair:
 
@@ -149,7 +149,7 @@ xticklabels('Data')
 draculize
 ```
 
-<img src="images/figure_06.png" alt="Figure 6" width="600"/>
+<img src="../images/figure_06.png" alt="Figure 6" width="600"/>
 
 ```matlab
 figure(7)
@@ -170,7 +170,7 @@ ysecondarylabel('[PDF]'), xsecondarylabel('[X-Data]')
 draculize
 ```
 
-<img src="images/figure_07.png" alt="Figure 7" width="600"/>
+<img src="../images/figure_07.png" alt="Figure 7" width="600"/>
 
 ## **Polar Axes Charts**
 
@@ -192,4 +192,4 @@ L2=legend(leg); L2.Title.String='Legend';
 draculize
 ```
 
-<img src="images/figure_08.png" alt="Figure 8" width="600"/>
+<img src="../images/figure_08.png" alt="Figure 8" width="600"/>
